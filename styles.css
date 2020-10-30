@@ -1,4 +1,62 @@
+body {
+    background-color: #f8f9fa;
+}
+
 h1 {
-    color: blue;
-    font-size: 100px
+    color: #036;
+    font-size: 100px;
+}
+
+h2 {
+    color: #036;
+    font-size: 40px;
+}
+
+h3 {
+    color: #699;
+    font-size: 25px;
+}
+
+h4 {
+    color: #699;
+    font-size: 20px;
+}
+
+h5 {
+    color: #036;
+    font-size: 15px;
+}
+
+p {
+    color: #036;
+    font-size: 12px;
+}
+
+.row {
+    width: 100%;
+    text-align: center;
+}
+
+.one-column {
+    width: 100%;
+    margin: 20px;
+}
+
+.leftcolumn {
+    width: 70%;
+    margin-left: 10px;
+}
+
+.rightcolumn {
+    width: 30%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card {
+    background-color: #cfc;
+    border: 5px;
+    border-radius: 25px;
+    padding: 25px;
+    margin-top: 20px;
 }

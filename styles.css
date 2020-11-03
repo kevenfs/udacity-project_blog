@@ -32,27 +32,6 @@ p {
     font-size: 12px;
 }
 
-.row {
-    width: 100%;
-    text-align: center;
-}
-
-.one-column {
-    width: 100%;
-    margin: 20px;
-}
-
-.leftcolumn {
-    width: 70%;
-    margin-left: 10px;
-}
-
-.rightcolumn {
-    width: 30%;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
 .card {
     background-color: #cfc;
     border: 5px;

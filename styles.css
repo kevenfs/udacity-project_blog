@@ -55,6 +55,8 @@ p {
     left: 0;
     bottom: 0;
     width: 100%;
+    margin-top: 100px;
+    padding: 40px;
     background-color: #000;
     color: #fff;
     text-align: center;

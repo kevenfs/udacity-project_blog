@@ -42,6 +42,14 @@ p {
     font-size: 15px;
 }
 
+.avatar {
+    vertical-align: middle;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin-left: 25px;
+}
+
 .card {
     background-color: #f8f9fa;
     border: 5px;

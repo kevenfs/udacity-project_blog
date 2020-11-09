@@ -144,6 +144,28 @@ p {
     text-align: center;
 }
 
+/* Button */
+
+.button {
+    background-color: #007bff;
+    border: solid 2px;
+    border-color: #f00;
+    border-radius: 25px;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 25px;
+    transition-duration: 0.6s;
+}
+
+.button:hover {
+    background-color: #f00;
+    border-color: #007bff;
+    color: #fff;
+}
+
 
 /* Images */
 

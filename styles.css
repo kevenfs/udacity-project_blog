@@ -44,7 +44,32 @@ p {
 }
 
 
-/* Flex */
+/* Grid */
+
+.item-a {
+    grid-area: header;
+}
+
+.item-b {
+    grid-area: main;
+}
+
+.item-c {
+    grid-area: footer;
+}
+
+
+.container {
+    display: inline-grid;
+    grid-template-columns: 50px auto 50px;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "header header header"
+        "main main main"
+        "footer footer footer";
+}
+
+/* Flexbox */
 
 .flex-container {
     display: flex;
@@ -53,10 +78,12 @@ p {
     align-items: left;
 }
 
-.flex-item-left,
-.flex-item-center,
+.flex-item-left {
+    flex: 30%;
+}
+
 .flex-item-right {
-    flex: 25%;
+    flex: 30%;
 }
 
 

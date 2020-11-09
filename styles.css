@@ -58,16 +58,16 @@ p {
     grid-area: footer;
 }
 
-
 .container {
     display: inline-grid;
-    grid-template-columns: 50px auto 50px;
+    grid-template-columns: 50px auto 250px 50px;
     grid-template-rows: auto;
     grid-template-areas:
-        "header header header"
-        "main main main"
-        "footer footer footer";
+        "header header header header"
+        "main main main main"
+        "footer footer footer footer";
 }
+
 
 /* Flexbox */
 
@@ -78,15 +78,7 @@ p {
     align-items: center;
 }
 
-.flex-item-left {
-    width: 30%;
-}
-
-.flex-item-center {
-    width: 30%;
-}
-
-.flex-item-right {
+.flex-item {
     width: 30%;
 }
 
@@ -211,11 +203,9 @@ p {
 
 /* Responsive */
 
-@media (max-width: 800px) {
+@media (max-width: 691px) {
 
-    .flex-item-left,
-    .flex-item-center,
-    .flex-item-right {
+    .flex-item {
         width: 100%;
     }
 }

@@ -233,6 +233,11 @@ p {
 
 /* Responsive */
 
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
 @media (max-width: 691px) {
 
     .flex-item {

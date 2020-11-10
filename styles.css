@@ -184,6 +184,14 @@ p {
     opacity: 0.8;
 }
 
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Card */
+
 .card {
     background-color: #f8f9fa;
     border: 5px;

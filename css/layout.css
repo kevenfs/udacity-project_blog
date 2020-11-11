@@ -1,0 +1,37 @@
+/* Grid */
+
+.item-a {
+    grid-area: header;
+}
+
+.item-b {
+    grid-area: main;
+}
+
+.item-c {
+    grid-area: footer;
+}
+
+.container {
+    display: inline-grid;
+    grid-template-columns: 50px auto 250px 50px;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "header header header header"
+        "main main main main"
+        "footer footer footer footer";
+}
+
+
+/* Flexbox */
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flex-item {
+    width: 30%;
+}

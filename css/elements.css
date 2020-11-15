@@ -6,6 +6,7 @@
 }
 
 .archive {
+    text-align: center;
     grid-area: archive;
 }
 
@@ -16,26 +17,28 @@
 }
 
 .author {
+    text-align: center;
     grid-area: bio;
 }
 
+.section {
+    grid-area: section;
+    text-align: left;
+}
+
 .article-1 {
-    text-align: center;
     grid-area: next1;
 }
 
 .article-2 {
-    text-align: center;
     grid-area: next2;
 }
 
 .article-3 {
-    text-align: center;
     grid-area: next3;
 }
 
 .article-4 {
-    text-align: center;
     grid-area: next4;
 }
 

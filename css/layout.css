@@ -3,12 +3,13 @@
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 15% auto auto auto 1fr;
+    grid-template-rows: auto auto auto auto auto 1fr;
     grid-template-areas:
         "title title title title"
         "post post post archive"
         "post post post bio"
         "post post post bio"
+        "section section section section"
         "next1 next2 next3 next4";
     grid-column-gap: 100px;
 }

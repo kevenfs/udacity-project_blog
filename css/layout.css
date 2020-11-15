@@ -2,15 +2,16 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto auto auto 1fr;
+    grid-template-columns: 1fr 1fr 1fr 20%;
+    grid-template-rows: auto auto auto auto auto 1fr auto;
     grid-template-areas:
-        "title title title title"
-        "post post post archive"
-        "post post post bio"
-        "post post post bio"
+        "header header header header"
+        "post post post sidebar1"
+        "post post post sidebar2"
+        "post post post sidebar2"
         "section section section section"
-        "next1 next2 next3 next4";
+        "next1 next2 next3 next4"
+        "footer footer footer footer";
     grid-column-gap: 100px;
 }
 
@@ -27,3 +28,8 @@
 .flex-item {
     width: 30%;
 }
+
+
+/* Responsive */
+
+@media (min-width: 992px) @media (max-width:991px) @media (min-width:577px) @media (max-width:341px)

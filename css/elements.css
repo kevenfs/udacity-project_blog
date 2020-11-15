@@ -1,13 +1,13 @@
 /* Elements */
 
-.header {
+.title {
     text-align: center;
-    grid-area: title;
+    grid-area: header;
 }
 
-.archive {
+.extra {
     text-align: center;
-    grid-area: archive;
+    grid-area: sidebar1;
 }
 
 .post {
@@ -18,7 +18,7 @@
 
 .author {
     text-align: center;
-    grid-area: bio;
+    grid-area: sidebar2;
 }
 
 .section {
@@ -40,6 +40,23 @@
 
 .article-4 {
     grid-area: next4;
+}
+
+
+/* Footer */
+
+.footer {
+    grid-area: footer;
+    position: bottom;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 200px;
+    border-radius: 200px 100px 200px 0;
+    padding: 40px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
 }
 
 

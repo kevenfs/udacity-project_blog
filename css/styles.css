@@ -1,6 +1,6 @@
-@import 'images.css';
-@import 'layout.css';
-@import 'responsiveness.css';
+@import "layout.css";
+@import "elements.css";
+@import "social-media.css";
 
 
 body {
@@ -24,7 +24,7 @@ h2 {
 }
 
 h3 {
-    color: #fff;
+    color: #000;
     font-size: 40px;
 }
 
@@ -44,20 +44,25 @@ h6 {
 }
 
 p {
-    color: #fff;
+    color: #007bff;
     font-size: 15px;
 }
 
+.row {
+    margin-bottom: 25px;
+    padding: 10px;
+}
 
-/* Topbar */
 
-.topbar {
+/* Navbar */
+
+.navbar {
     overflow: hidden;
     background-color: #000;
     border-radius: 0 15px 50px 10px;
 }
 
-.topbar a {
+.navbar a {
     float: left;
     display: block;
     color: #fff;
@@ -66,32 +71,9 @@ p {
     text-decoration: none;
 }
 
-.topbar a:hover {
+.navbar a:hover {
     background-color: #007bff;
     color: #fff;
-}
-
-
-/* Content */
-
-.content {
-    background-color: #ddd;
-    border-radius: 100px 250px 50px 20px;
-    margin-top: 25px;
-    padding: 25px;
-}
-
-.row {
-    margin-bottom: 25px;
-    padding: 10px;
-}
-
-.avatar {
-    vertical-align: middle;
-    width: 125px;
-    height: 125px;
-    border-radius: 50%;
-    margin: 25px;
 }
 
 
@@ -102,7 +84,7 @@ p {
     left: 0;
     bottom: 0;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 200px;
     border-radius: 200px 100px 200px 0;
     padding: 40px;
     background-color: #000;
@@ -111,65 +93,9 @@ p {
 }
 
 
-/* Button */
+/* Images */
 
-.button {
-    background-color: #007bff;
-    border: solid 2px;
-    border-color: #f00;
-    border-radius: 25px;
-    color: #fff;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: block;
-    font-size: 25px;
-    transition-duration: 0.6s;
-}
-
-.button:hover {
-    background-color: #f00;
-    border-color: #007bff;
-    color: #fff;
-}
-
-
-/* Card */
-
-.card {
-    background-color: #f8f9fa;
-    border: 5px;
-    border-radius: 25px;
-    padding: 25px;
-    margin-top: 100px;
-}
-
-
-/* Social media */
-
-.fa {
-    padding: 10px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-facebook {
-    background: #3B5998;
-    color: #fff;
-}
-
-.fa-twitter {
-    background: #55ACEE;
-    color: #fff;
-}
-
-.fa-instagram {
-    background: #f40083;
-    color: #fff;
+img {
+    max-width: auto;
+    height: auto;
 }

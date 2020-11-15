@@ -1,0 +1,58 @@
+/* Elements */
+
+.header {
+    text-align: center;
+    grid-area: title;
+}
+
+.archive {
+    grid-area: archive;
+}
+
+.post {
+    text-align: justify;
+    grid-area: post;
+    padding-bottom: 100px;
+}
+
+.author {
+    grid-area: bio;
+}
+
+.article-1 {
+    text-align: center;
+    grid-area: next1;
+}
+
+.article-2 {
+    text-align: center;
+    grid-area: next2;
+}
+
+.article-3 {
+    text-align: center;
+    grid-area: next3;
+}
+
+.article-4 {
+    text-align: center;
+    grid-area: next4;
+}
+
+
+/* Cards */
+
+.card {
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding: 5px 20px;
+}

@@ -1,25 +1,16 @@
 /* Grid */
 
-.item-a {
-    grid-area: header;
-}
-
-.item-b {
-    grid-area: main;
-}
-
-.item-c {
-    grid-area: footer;
-}
-
-.container {
-    display: inline-grid;
-    grid-template-columns: 50px auto 250px 50px;
-    grid-template-rows: auto;
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 15% auto auto auto 1fr;
     grid-template-areas:
-        "header header header header"
-        "main main main main"
-        "footer footer footer footer";
+        "title title title title"
+        "post post post archive"
+        "post post post bio"
+        "post post post bio"
+        "next1 next2 next3 next4";
+    grid-column-gap: 100px;
 }
 
 
